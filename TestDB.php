@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost";
+$servername = getenv("MYSQL_SERVICE_HOST");
 $username = "admin";
 $password = "admin";
 
